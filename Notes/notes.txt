@@ -1,0 +1,82 @@
+21.06
+
+Non primitive dataty
+
+Objects :
+   1. Key-value pair
+   var person={
+       name:"Rahul",
+       age:21
+   };
+log(person.age);
+
+
+dynamically typed lang
+scripting lang
+prog lang
+
+obj . not , bracket notation ques?
+
+
+types of functions
+
+anonymous func
+named func
+function expression
+immediate invoke function
+
+
+--------------------------------------------
+
+22.06
+
+
+Assignments
+1.Whats the purpose of hoisting?
+2.Accesing functions in arrays
+3.slice vs splice
+4.map vs filter
+5.ordered list
+6.create Element
+7.presentation topics
+
+Topics :
+    Date
+    Math
+    Set timeout/set interval
+    hoisting
+    Array/String method
+    for loops
+    callstack
+    callback
+    closures
+    recursion
+    BOM
+    DOM
+
+Js hoisting
+    variable hoisting -js engine moves the variable declarations to the top of the script.
+
+
+    func hoisting-js engine moves the functions declarations to the top of the script.
+
+    to avoid bugs
+
+
+original arrray doesn't get affected by slice method.
+
+
+
+for loops in js
+
+    1.for loop
+    2.forEach
+    3.for of  --retrieves only values
+    4.for in
+
+louppe js callstack
+
+
+callback
+recursion
+closures

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var fruits = ["apple", "mango", "orange", "peach"]
+
+      // fruits.forEach(function (val,i){
+      //     console.log(val);
+      //     console.log(i);
+      // });
+
+      //stores only values
+      // for(var fruit of fruits){
+      //     console.log(fruit);
+      // }
+
+      //stores only indexes
+      // for(var fruitIndex in fruits){
+      //     console.log(fruitIndex);
+      //     console.log(fruits[fruitIndex]);//to store values as well
+      // }
+
+      //for in (objects)
+      var person = {
+        name: "Raja",
+        age: "21",
+        company: "onebill",
+      };
+
+      //Stores only keys
+      for(var employee in person){
+          console.log(employee);
+
+          console.log(person[employee]);
+      }
+
+    </script>
+  </body>
+</html>
