@@ -40,7 +40,7 @@ Assignments
 6.create Element
 7.presentation topics
 
-Topics :
+Topics  :
     Date
     Math
     Set timeout/set interval
@@ -80,3 +80,41 @@ louppe js callstack
 callback
 recursion
 closures
+
+
+
+
+23.06
+
+
+
+id is unique for single Element
+
+Dom methods
+
+Events
+
+AddEventListener(event,function)
+
+
+Element.className="";
+
+ES6
+
+let keyword - Can't be hoisted
+
+
+set doesn't allow Duplicates.
+
+
+Topics
+    Event Handlers -mouse,key
+    Geo Location
+    ES6
+        keywords
+        Template Literals
+        Default Params
+        Arrow functions
+        Spread & Rest operators
+        Array & object Destructuring
+        Set and map

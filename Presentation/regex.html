@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Regex</title>
+
+ <!-- Javascript Code -->
+ <script type="text/javascript">
+ function Validate(){
+ var name=document.getElementById("user").value;
+ 
+ //Syntax : /pattern/modifier
+
+ //method 1
+ // var regex=/Onebill/; //Regular Experssion without modifier
+
+ //method 2
+ //var regex=/[a-z]/; //REgex (Small letters [abcdefghijklmnopqrstuvwxyz])
+
+ //method 3
+ //var regex=/[A-Z]/; //Regex (Capital Letters [ABCDEFGHIJKLMNOPQRSTUVWXYZ])
+
+ //method 4
+ //var regex=/[0-5]/; // Regex ( Numbers [1234567890]) 
+
+ // Modifiers ( i , g , m)
+
+ //Special Characters
+ //var regex=/^[A-Z a-z 0-9]+$/; //Not Allowed Any Special Character
+ //var regex=/[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/; //Allowed Special Character
+ if(regex.test(name)){
+ alert("valid User");
+ }
+ else{
+ alert("Invalid User");
+ }
+ }
+ </script>
+</head>
+<body>
+ <form>
+ Enter Your Name <input type="text" placeholder="Enter username" id="user"><br>
+ <button onclick="Validate()" type="button">Submit</button>
+ </form>
+ 
+</body>
+</html>
