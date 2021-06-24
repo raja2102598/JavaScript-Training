@@ -109,6 +109,7 @@ set doesn't allow Duplicates.
 
 Topics
     Event Handlers -mouse,key
+    Dom methods
     Geo Location
     ES6
         keywords
@@ -118,3 +119,47 @@ Topics
         Spread & Rest operators
         Array & object Destructuring
         Set and map
+
+
+24June
+
+    Classes - Constructor
+        Inheritance
+
+    Promises
+        then()
+        catch()
+
+
+React Js
+
+    FrameWork- FrameWork calls our code.
+    Library - our code calls Library.
+
+    Virtual Dom
+    uni directional data flow
+    Component based
+    Server Side Rendering
+
+    Virtual Dom- made of  React Elements
+    Real Dom-made of Dom Elements
+
+    React using Html and js
+        1.Add the container
+            div(root)
+        2.Add the react Scripts
+            <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+            <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+        3.Add the babel compiler
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+        4.add JS file
+             <script type="text/jsx" src="./index.js"></script>
+        5.Create Element and Render
+            const element=<h1>Hello</h1>;
+            ReactDOM.render(element,document.getElementById('root'));
+    JSX Rules:
+        JS expressions inside {}
+        Inserting large block using reference var; const var=(Elements)
+        One top element <div></div>
+        Elements must be closed;
+        

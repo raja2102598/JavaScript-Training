@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onload="getMovie()">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Movies</a>
+        <form class="d-flex" >
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            size="60px"
+            name="movieName"
+            id="movieName"
+          />
+          <button class="btn btn-outline-success" id="btnSearch" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- <br> -->
+    <hr>
+    <div class="row row-cols-1 row-cols-md-6 g-4" id="Movies">
+      <!-- <div class="col">
+        <div class="card h-100">
+          <img
+            src=""
+            class="card-img-top"
+            alt="..."
+            height="250px"
+            width="200px"
+            id="imgUrl"
+          />
+          <div class="card-body">
+            <h4 class="card-title" id="movieTitle">    
+            </h4>
+            <p class="card-text" id="moviePlot">
+            </p>
+            <p id="imdbRating"></p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <!-- <div class="row row-cols-1 row-cols-md-6 g-4" style="display: block;" id="MoviesList">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BNTkwOTE1ZDYtODQ3Yy00YTYwLTg0YWQtYmVkNmFjNGZlYmRiXkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_SX300.jpg"
+              class="card-img-top"
+              alt="..."
+              height="250px"
+              width="200px"
+              id="imgUrl"
+            />
+            <div class="card-body">
+              <h4 class="card-title" id="movieTitle">
+                  Loki
+              </h4>
+              <p class="card-text" id="moviePlot">
+                  A new Marvel chapter with Loki at its center.
+              </p>
+              <p id="imdbRating">Ratings : 4.0</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+  
+    <script src="./Movies.js"></script>
+  </body>
+</html>
